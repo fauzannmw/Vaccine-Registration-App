@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  background-color: #f1f2f4;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar img {
+  width: 100px;
+}
+
+.nav-item {
+  margin: 0 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #050505 !important;
+  position: relative;
+}
+
+.nav-item button {
+  width: 210px;
+  height: 40px;
+  background: #ffde67;
+  border-radius: 9px;
+  font-weight: 600;
+  border: none;
+}
+
+.active:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ffde67;
+  border-radius: 30px;
+}
+
+.col-md-6 h1 {
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: 90px;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form-control {
+  border-radius: 7px;
+  width: 600px;
+}
+
+.scan-ktp {
+  width: 450px;
+  height: 176px;
+  margin: auto;
+  background: #ffde67;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scan-ktp button {
+  width: 140px;
+  height: 30px;
+  background: #f1f2f4;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.ktp {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}

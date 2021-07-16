@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  background-color: #f1f2f4;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar img {
+  width: 100px;
+}
+
+.nav-item {
+  margin: 0 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #050505 !important;
+  position: relative;
+}
+
+.nav-item button {
+  width: 210px;
+  height: 40px;
+  background: #ffde67;
+  border-radius: 9px;
+  font-weight: 600;
+  border: none;
+}
+
+.active:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ffde67;
+  border-radius: 30px;
+}
+
+.row h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.col-md-6 h1 {
+  font-weight: bold;
+  font-size: 48px;
+  /* margin-top: 90px; */
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.form-control,
+.form-select {
+  border-radius: 7px;
+  width: 100%;
+}
+
+/* .selesai {
+  bottom: 0 !important;
+  left: 0 !important;
+} */
+
+.selesai a {
+  width: 210px;
+  height: 40px;
+  background: #ffde67;
+  border-radius: 9px;
+  font-weight: 600;
+  border: none;
+}
+
+.syarat {
+  /* margin: auto; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.syarat-vaksin {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}

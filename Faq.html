@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="Faq.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <img src="./assets/logo/logo-utama.png" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vaksin</a>
+            </li>
+          </ul>
+          <ul class="nav-item">
+            <!-- <a class="nav-link active" href="#">Daftar Vaksinasi</a> -->
+            <button>Daftar Vaksinasi</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Section -->
+
+    <!-- Content Section -->
+    <div class="container">
+      <div class="row">
+        <h1>Frequently Asked Question</h1>
+      </div>
+      <div class="row">
+        <div class="accordion">
+          <div class="contentBx">
+            <div class="label">Apakah COVID-19 sama dengan SARS ?</div>
+            <div class="content">
+              <p>
+                COVID-19 disebabkan oleh SARS-COV2 yang termasuk dalam keluarga
+                besar coronavirus yang sama dengan penyebab SARS pada tahun
+                2003, hanya berbeda jenis virusnya. Gejalanya mirip dengan SARS,
+                namun angka kematian SARS (9,6%) lebih tinggi dibanding COVID-19
+                (kurang dari 5%), walaupun jumlah kasus COVID-19 jauh lebih
+                banyak dibanding SARS. COVID-19 juga memiliki penyebaran yang
+                lebih luas dan cepat ke beberapa negara dibanding SARS.
+              </p>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label">
+              Apakah COVID-19 dapat ditularkan dari orang yang tidak bergejala?
+            </div>
+            <div class="content">
+              <p>
+                Cara penularan utama penyakit ini adalah melalui tetesan kecil
+                (droplet) yang dikeluarkan pada saat seseorang batuk atau
+                bersin. Saat ini WHO menilai bahwa risiko penularan dari
+                seseorang yang tidak bergejala COVID-19 sama sekali sangat kecil
+                kemungkinannya. Namun, banyak orang yang teridentifikasi
+                COVID-19 hanya mengalami gejala ringan seperti batuk ringan,
+                atau tidak mengeluh sakit, yang mungkin terjadi pada tahap awal
+                penyakit. Sampai saat ini, para ahli masih terus melakukan
+                penyelidikan untuk menentukan periode penularan atau masa
+                inkubasi COVID-19. Tetap pantau sumber informasi yang akurat dan
+                resmi mengenai perkembangan penyakit ini.
+              </p>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label">
+              Apakah virus penyebab COVID-19 dapat ditularkan melalui udara?
+            </div>
+            <div class="content">
+              <p>
+                Tidak. Hingga saat ini penelitian menyebutkan bahwa virus
+                penyebab COVID-19 ditularkan melalui kontak dengan tetesan kecil
+                (droplet) dari saluran pernapasan.
+              </p>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label">Apa saja gejala COVID-19?</div>
+            <div class="content">
+              <p>
+                Gejala umum berupa demam 380C, batuk kering, dan sesak napas.
+                Jika ada orang yang dalam 14 hari sebelum muncul gejala tersebut
+                pernah melakukan perjalanan ke negara terjangkit, atau pernah
+                merawat/kontak erat dengan penderita COVID-19, maka terhadap
+                orang tersebut akan dilakukan pemeriksaan laboratorium lebih
+                lanjut untuk memastikan diagnosisnya. Daftar negara terjangkit
+                dapat dipantau melalui website ini.
+              </p>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label">
+              Amankah jika kita menerima paket barang dari Cina atau dari negara
+              lain yang melaporkan virus ini?
+            </div>
+            <div class="content">
+              <p>
+                Ya, aman. Orang yang menerima paket tidak berisiko tertular
+                virus COVID-19. Dari pengalaman dengan coronavirus lain, kita
+                tahu bahwa jenis virus ini tidak bertahan lama pada benda mati,
+                seperti surat atau paket.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Section -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <script>
+      const accordion = document.getElementsByClassName("contentBx");
+      for (i = 0; i < accordion.length; i++) {
+        accordion[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+        });
+      }
+    </script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  background-color: #f1f2f4;
+  font-family: "Open Sans", sans-serif;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.row h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.row h5 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.kode-vaksinasi {
+  width: 90%;
+  height: 46px;
+  background: #ffde67;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kode-vaksinasi h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+}
+
+.col-lg-6 a {
+  width: 204px;
+  height: 47px;
+  background: #ffde67;
+  border-radius: 10px;
+  border: none;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.col p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  right: 0;
+  bottom: 0;
+}

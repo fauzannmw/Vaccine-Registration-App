@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  background-color: #f1f2f4;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar img {
+  width: 100px;
+}
+
+.nav-item {
+  margin: 0 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #050505 !important;
+  position: relative;
+}
+
+.nav-item button {
+  width: 210px;
+  height: 40px;
+  background: #ffde67;
+  border-radius: 9px;
+  font-weight: 600;
+  border: none;
+}
+
+.nav-link.active:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ffde67;
+  border-radius: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.accordion {
+  max-width: 800px;
+  text-align: start;
+}
+
+.accordion .contentBx {
+  position: relative;
+  margin: 10px 0;
+}
+
+.accordion .contentBx .label {
+  position: relative;
+  padding: 10px;
+  background: #cfcfcf;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.accordion .contentBx .label::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.accordion .contentBx.active .label::before {
+  content: "-";
+}
+
+.accordion .contentBx .content {
+  position: relative;
+  background: #ffffff;
+  border-radius: 10px;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+.accordion .contentBx.active .content {
+  height: 150px;
+  padding: 10px;
+}
