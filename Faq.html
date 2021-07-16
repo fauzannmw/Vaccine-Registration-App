@@ -12,7 +12,23 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+      integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="Faq.css" />
 
     <title>Hello, world!</title>
@@ -52,14 +68,17 @@
     <!-- Navbar Section -->
 
     <!-- Content Section -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <h1>Frequently Asked Question</h1>
       </div>
       <div class="row">
         <div class="accordion">
           <div class="contentBx">
-            <div class="label">Apakah COVID-19 sama dengan SARS ?</div>
+            <div class="label">
+              <div class="col-11">Apakah COVID-19 sama dengan SARS ?</div>
+              <div class="col-1"></div>
+            </div>
             <div class="content">
               <p>
                 COVID-19 disebabkan oleh SARS-COV2 yang termasuk dalam keluarga
@@ -74,7 +93,11 @@
           </div>
           <div class="contentBx">
             <div class="label">
-              Apakah COVID-19 dapat ditularkan dari orang yang tidak bergejala?
+              <div class="col-11">
+                Apakah COVID-19 dapat ditularkan dari orang yang tidak bergejala
+                ?
+              </div>
+              <div class="col-1"></div>
             </div>
             <div class="content">
               <p>
@@ -94,7 +117,10 @@
           </div>
           <div class="contentBx">
             <div class="label">
-              Apakah virus penyebab COVID-19 dapat ditularkan melalui udara?
+              <div class="col-11">
+                Apakah virus penyebab COVID-19 dapat ditularkan melalui udara ?
+              </div>
+              <div class="col-1"></div>
             </div>
             <div class="content">
               <p>
@@ -105,7 +131,10 @@
             </div>
           </div>
           <div class="contentBx">
-            <div class="label">Apa saja gejala COVID-19?</div>
+            <div class="label">
+              <div class="col-11">Apa saja gejala COVID-19 ?</div>
+              <div class="col-1"></div>
+            </div>
             <div class="content">
               <p>
                 Gejala umum berupa demam 380C, batuk kering, dan sesak napas.
@@ -120,8 +149,11 @@
           </div>
           <div class="contentBx">
             <div class="label">
-              Amankah jika kita menerima paket barang dari Cina atau dari negara
-              lain yang melaporkan virus ini?
+              <div class="col-11">
+                Amankah jika kita menerima paket barang dari Cina atau dari
+                negara lain yang melaporkan virus ini?
+              </div>
+              <div class="col-1"></div>
             </div>
             <div class="content">
               <p>
@@ -134,8 +166,215 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Content Section -->
+
+    <div class="container">
+      <div class="row">
+        <h1>Frequently Asked Question</h1>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Apakah COVID-19 sama dengan SARS ?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+            style="border-radius: 20px"
+          >
+            <div class="accordion-body">
+              COVID-19 disebabkan oleh SARS-COV2 yang termasuk dalam keluarga
+              besar coronavirus yang sama dengan penyebab SARS pada tahun 2003,
+              hanya berbeda jenis virusnya. Gejalanya mirip dengan SARS, namun
+              angka kematian SARS (9,6%) lebih tinggi dibanding COVID-19 (kurang
+              dari 5%), walaupun jumlah kasus COVID-19 jauh lebih banyak
+              dibanding SARS. COVID-19 juga memiliki penyebaran yang lebih luas
+              dan cepat ke beberapa negara dibanding SARS.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Apakah COVID-19 dapat ditularkan dari orang yang tidak bergejala?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Cara penularan utama penyakit ini adalah melalui tetesan kecil
+              (droplet) yang dikeluarkan pada saat seseorang batuk atau bersin.
+              Saat ini WHO menilai bahwa risiko penularan dari seseorang yang
+              tidak bergejala COVID-19 sama sekali sangat kecil kemungkinannya.
+              Namun, banyak orang yang teridentifikasi COVID-19 hanya mengalami
+              gejala ringan seperti batuk ringan, atau tidak mengeluh sakit,
+              yang mungkin terjadi pada tahap awal penyakit. Sampai saat ini,
+              para ahli masih terus melakukan penyelidikan untuk menentukan
+              periode penularan atau masa inkubasi COVID-19. Tetap pantau sumber
+              informasi yang akurat dan resmi mengenai perkembangan penyakit
+              ini.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Apakah virus penyebab COVID-19 dapat ditularkan melalui udara?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Tidak. Hingga saat ini penelitian menyebutkan bahwa virus penyebab
+              COVID-19 ditularkan melalui kontak dengan tetesan kecil (droplet)
+              dari saluran pernapasan.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              Apa saja gejala COVID-19?
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Gejala umum berupa demam 380C, batuk kering, dan sesak napas. Jika
+              ada orang yang dalam 14 hari sebelum muncul gejala tersebut pernah
+              melakukan perjalanan ke negara terjangkit, atau pernah
+              merawat/kontak erat dengan penderita COVID-19, maka terhadap orang
+              tersebut akan dilakukan pemeriksaan laboratorium lebih lanjut
+              untuk memastikan diagnosisnya. Daftar negara terjangkit dapat
+              dipantau melalui website ini.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              Siapa saja yang berisiko terinfeksi COVID-19?
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Orang yang tinggal atau bepergian di daerah di mana virus COVID-19
+              bersirkulasi sangat mungkin berisiko terinfeksi. Mereka yang
+              terinfeksi adalah orang-orang yang dalam 14 hari sebelum muncul
+              gejala melakukan perjalanan dari negara terjangkit, atau yang
+              kontak erat, seperti anggota keluarga, rekan kerja atau tenaga
+              medis yang merawat pasien sebelum mereka tahu pasien tersebut
+              terinfeksi COVID-19. Petugas kesehatan yang merawat pasien yang
+              terinfeksi COVID-19 berisiko lebih tinggi dan harus konsisten
+              melindungi diri mereka sendiri dengan prosedur pencegahan dan
+              pengendalian infeksi yang tepat.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              Amankah jika kita menerima paket barang dari Cina atau dari negara
+              lain yang melaporkan virus ini?
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Ya, aman. Orang yang menerima paket tidak berisiko tertular virus
+              COVID-19. Dari pengalaman dengan coronavirus lain, kita tahu bahwa
+              jenis virus ini tidak bertahan lama pada benda mati, seperti surat
+              atau paket.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="container-fluid text-center">
+      <div class="row mb-4">Kunjungi kami di</div>
+      <div class="row">
+        <div class="col-3">Term Of Services</div>
+        <div class="col-6">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+
+          <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href=""><img src="./assets/logo/twitter.png" alt="" /></a>
+          <a href=""><img src="./assets/logo/youtube.png" alt="" /></a>
+        </div>
+        <div class="col-3">Hubungi kami</div>
+      </div>
+    </div>
+    <!-- Footer Section -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  background-color: #f1f2f4;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar img {
+  width: 100px;
+}
+
+.nav-item {
+  margin: 0 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #050505 !important;
+  position: relative;
+}
+
+.nav-item button {
+  width: 210px;
+  height: 40px;
+  background: #ffde67;
+  border-radius: 9px;
+  font-weight: 600;
+  border: none;
+}
+
+.nav-link.active:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ffde67;
+  border-radius: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .section-1 img {
+  height: 300px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+} */
+
+.container h1 {
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.container p {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+/* .container li {
+  margin: 20px 0;
+  width: 75%;
+} */
+
+.footer {
+  margin-top: 100px;
+  height: 160px;
+  background-color: #ffde67;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer img {
+  margin: 0 50px;
+  max-width: 50px;
+}

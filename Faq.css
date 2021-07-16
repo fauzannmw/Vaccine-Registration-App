@@ -43,16 +43,16 @@ body {
   text-align: center;
 }
 
-.accordion {
+/* .accordion {
   max-width: 800px;
   text-align: start;
+  max-height: 100px;
 }
 
 .accordion .contentBx {
   position: relative;
   margin: 10px 0;
 }
-
 .accordion .contentBx .label {
   position: relative;
   padding: 10px;
@@ -62,7 +62,7 @@ body {
   cursor: pointer;
 }
 
-.accordion .contentBx .label::before {
+.accordion .contentBx .label .col-1::before {
   content: "+";
   position: absolute;
   top: 50%;
@@ -71,7 +71,7 @@ body {
   font-size: 1.5em;
 }
 
-.accordion .contentBx.active .label::before {
+.accordion .contentBx.active .label .col-1::before {
   content: "-";
 }
 
@@ -88,4 +88,31 @@ body {
 .accordion .contentBx.active .content {
   height: 150px;
   padding: 10px;
+} */
+
+.accordion-item {
+  margin: 20px;
+}
+
+.container-fluid {
+  margin-top: 100px;
+  height: 160px;
+  background-color: #ffde67;
+  padding-top: 60px;
+}
+
+.container-fluid {
+  margin-top: 100px;
+  height: 160px;
+  background-color: #ffde67;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+}
+
+.container-fluid img {
+  margin: 0 50px;
+  max-width: 50px;
 }
