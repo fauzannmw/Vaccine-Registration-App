@@ -16,6 +16,19 @@ body {
   position: relative;
 }
 
+.nav-item .daftar {
+  width: 210px;
+  height: 40px;
+  background: #ffde67;
+  border-radius: 9px;
+  border: none;
+}
+
+.nav-item a {
+  font-weight: 600;
+  font-size: 18px;
+}
+
 .nav-item button {
   width: 210px;
   height: 40px;

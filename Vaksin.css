@@ -16,6 +16,19 @@ body {
   position: relative;
 }
 
+.nav-item .daftar {
+  width: 210px;
+  height: 40px;
+  background: #ffde67;
+  border-radius: 9px;
+  border: none;
+}
+
+.nav-item a {
+  font-weight: 600;
+  font-size: 18px;
+}
+
 .nav-item button {
   width: 210px;
   height: 40px;
@@ -25,7 +38,7 @@ body {
   border: none;
 }
 
-.active:after {
+.nav-link.active:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -36,47 +49,24 @@ body {
   border-radius: 30px;
 }
 
-.col-md-6 h1 {
-  font-weight: bold;
-  font-size: 48px;
-  margin-top: 90px;
-}
-
-.form-label {
-  font-weight: 600;
-  font-size: 18px;
-}
-
-.form-control {
-  border-radius: 7px;
-  width: 600px;
-}
-
-.scan-ktp {
-  width: 450px;
-  height: 176px;
-  margin: auto;
-  background: #ffde67;
-  border-radius: 10px;
+.row {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.scan-ktp button {
-  width: 140px;
-  height: 30px;
-  background: #f1f2f4;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 6px;
-  margin-top: 10px;
+.footer {
+  margin-top: 100px;
+  height: 160px;
+  background-color: #ffde67;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  bottom: 0;
+  text-align: center;
 }
 
-.ktp {
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
+.footer img {
+  margin: 0 50px;
+  max-width: 50px;
 }
