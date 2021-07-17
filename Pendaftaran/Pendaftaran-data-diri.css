@@ -91,15 +91,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Open Sans;
   font-weight: 600;
   font-size: 16px;
   margin: 5px;
 }
 
 .ktp {
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
 }
@@ -111,5 +108,28 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
-  /* width: 50%; */
+}
+
+@media only screen and (max-width: 768px) {
+  .row h1 {
+    font-size: 34px;
+  }
+
+  .form-control,
+  .form-select {
+    border-radius: 7px;
+    width: 100%;
+  }
+
+  .berikutnya input[type="submit"] {
+    width: 100%;
+  }
+
+  .scan-ktp {
+    width: 100%;
+  }
+
+  .logo-pendaftaran {
+    display: none;
+  }
 }
