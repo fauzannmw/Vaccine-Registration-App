@@ -49,11 +49,6 @@ body {
   border-radius: 30px;
 }
 
-@media only screen and (max-width: 768px) {
-  .nav-link.active:after {
-    background-color: #f1f2f4;
-  }
-}
 .container h1 {
   font-weight: bold;
   font-size: 36px;
@@ -97,6 +92,16 @@ body {
 
 .kanan {
   border-radius: 0 9px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-link.active:after {
+    background-color: #f1f2f4;
+  }
+
+  .kanan {
+    border-radius: 9px 0;
+  }
 }
 
 footer {
